@@ -3,8 +3,18 @@ name = "powertoys_text_to_speech"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
+    "edge-tts>=7.2.3",
+    "keyboard>=0.13.5",
     "numpy>=2.3.3",
-    "pandas>=2.3"
-    ]
+    "pandas>=2.3",
+    "pywin32>=311",
+    "winrt-runtime>=3.2.1",
+    "winrt-windows-foundation-collections>=3.2.1",
+    "winrt-windows.Foundation>=3.2.1",
+    "winrt-windows.Media.Playback>=3.2.1",
+    "winrt-windows.Media.SpeechSynthesis>=3.2.1",
+    "winrt-windows.Storage.streams>=3.2.1",
+    "winrt-Windows.Storage>=3.2.1",
+]
